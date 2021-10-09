@@ -14,7 +14,7 @@ def get_businesses(location, term, api_key):
                 'limit': 50, 
                 'radius': 1500,
                 'location': loc.replace(' ', '+'),
-                'categories': term.replace(' ', '+'),
+                'categories': term.replace(' '),
                 'term': "restaurants",
                 'offset': offset,
                 'radius': 10000
