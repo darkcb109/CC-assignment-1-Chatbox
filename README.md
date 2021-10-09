@@ -8,3 +8,4 @@ opensearch.py - after running yelp-restaurants.py, run openesarch the upload the
 
 In cloud-hw1-starter, changed chat.js to make it so the bot can read my body messages
 
+bucket link - http://customerservicebucket.s3-website.us-east-2.amazonaws.com/
