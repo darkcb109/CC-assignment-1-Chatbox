@@ -10,7 +10,7 @@ id = 1
 
 # This loop iterates through all HTML files in the current directory and
 # indexes two things: the contents of the first h1 tag and all other text.
-files = ['dataI.json']
+files = ['data.json']
 
 
 
