@@ -3,7 +3,7 @@ import boto3
 
 def lambda_handler(event, context):
     messages = event['messages'][0]['unstructured']['text']
-    client = boto3.client('lexv2-runtime', region_name='us-east-1', aws_access_key_id='AKIAXY4BPPZV2XWERI75', aws_secret_access_key='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')
+    client = boto3.client('lexv2-runtime', region_name='us-east-1', aws_access_key_id='', aws_secret_access_key='')
     botName = "FoodRecommenderBot"
     AliasName = "TSTALIASID"
     botId = "HYRFRJXCF8"
