@@ -4,8 +4,8 @@ from requests_aws4auth import AWS4Auth
 import random
 from opensearchpy import OpenSearch, RequestsHttpConnection
 
-access_key = 'AKIAXY4BPPZV2XWERI75'
-secret_access_key = '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'
+access_key = ''
+secret_access_key = ''
 
 def lambda_handler(event, context):
     
