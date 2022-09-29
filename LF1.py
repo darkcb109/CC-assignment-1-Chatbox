@@ -40,7 +40,7 @@ def lambda_handler(event, context):
             sendBody = city + "," + cusine + "," + numOfPeople + "," + date + "," + time + "," + phone
             
             #do the method
-            client = boto3.client('sqs', region_name='us-east-1', aws_access_key_id='AKIAXY4BPPZV2XWERI75', aws_secret_access_key='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')
+            client = boto3.client('sqs', region_name='us-east-1', aws_access_key_id='', aws_secret_access_key='')
             result = client.send_message(
                 QueueUrl=sendUrl,
                 MessageBody=sendBody
